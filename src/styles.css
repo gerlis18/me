@@ -15,7 +15,7 @@ a {
 }
 
 a:hover {
-    color: #ffb7b7;
+    color: #1de9b6;
 }
 
 ul > li {
@@ -27,5 +27,5 @@ img {
 }
 
 ::selection {
-    background: #ffb7b7;
+    background: #64ffda;
 }
