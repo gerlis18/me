@@ -4,7 +4,7 @@ h2 > span {
 
 .wrapper {
     display: grid;
-    background: no-repeat url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/grid.png);
+    background: no-repeat url(../assets/images/background.png);
     background-size: 100%;
     grid-gap: 10px;
     grid-template-columns:  repeat(6, 1fr);
@@ -32,7 +32,7 @@ h2 > span {
 }
 
 .c {
-    grid-column: 2 / 4;
+    grid-column: 1 / 4;
     grid-row: 3 / 5;
     justify-self: auto;
     padding-top: 0;
@@ -40,7 +40,7 @@ h2 > span {
 
 .d {
     grid-column: 4 / 5;
-    grid-row: 4 / 6;
+    grid-row: 3 / 5;
     justify-self: auto;
 }
 
@@ -49,6 +49,9 @@ h2 > span {
     grid-row: 1 / 6;
     align-self: stretch;
     padding: 0;
+    position: fixed;
+    right: 0;
+    width: 420px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -68,6 +71,8 @@ h2 > span {
     grid-row: 2;
     align-self: center;
     padding: 0;
+    position: initial;
+    width: 100%;
   }
 
   .c {
