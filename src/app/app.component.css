@@ -26,9 +26,10 @@ h2 > span {
 }
 
 .b {
-    grid-column: 3 / 5;
+    grid-column: 3 / 4;
     grid-row: 2 / 3;
     justify-self: end;
+    font-size: 130%;
 }
 
 .c {
@@ -40,7 +41,7 @@ h2 > span {
 
 .d {
     grid-column: 4 / 5;
-    grid-row: 3 / 5;
+    grid-row: 2 / 5;
     justify-self: auto;
 }
 
