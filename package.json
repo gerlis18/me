@@ -5,7 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:prod": "ng build --prod --base-href \"https://gerlis18.github.io/portfolio/\"",
+    "build:prod": "ng build --prod --base-href me && npm run deploy",
+    "deploy": "ngh --dir=dist/portfolio",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
