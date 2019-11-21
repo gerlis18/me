@@ -1,4 +1,5 @@
 import React from "react";
+import ProgressBar from "./ProgressBar";
 
 export const Skills = props => {
   return (
@@ -12,6 +13,7 @@ export const Skills = props => {
             <li key={index} style={{ marginTop: "10px" }}>
               <label>
                 {skill.name} {skill.percent}%
+                <ProgressBar percent={skill.percent / 100} />
               </label>
             </li>
           ))}
