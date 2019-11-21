@@ -83,7 +83,7 @@ h2 > span {
   padding: 0;
   position: fixed;
   right: 0;
-  width: 420px;
+  width: 30%;
 }
 
 @media screen and (max-width: 1024px) {
