@@ -14,6 +14,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
+      - name: build web app
+        run: npm run build
+
       - name: deploy web app to github pages
         uses: JamesIves/github-pages-deploy-action@3.0.1
         with:
